@@ -1,0 +1,26 @@
+{
+  "name": "stock-crud-backend",
+  "version": "1.0.0",
+  "description": "Backend do Sistema de Estoque - CRUD completo com Node.js e Express",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "sqlite",
+    "crud",
+    "estoque",
+    "api"
+  ],
+  "author": "Sistema de Estoque",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "sqlite3": "^5.1.7"
+  }
+}
